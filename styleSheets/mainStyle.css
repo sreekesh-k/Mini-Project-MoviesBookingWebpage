@@ -1,0 +1,67 @@
+.menubar {
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 100vw;
+    padding: 0px;
+    align-items: center;
+    position: relative;
+}
+
+.menubar-box {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+    z-index: 1;
+    overflow: hidden;
+    background-color: rgba(69, 66, 66, 0.058);
+}
+.menubar-box button:hover {
+    border-bottom:solid 3px rgba(56, 233, 68, 0.238);
+    font-size: 1em;
+}
+.main1-box {
+    width: 98%;
+    height: 50px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 0 5px;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0px 1px;
+}
+
+.main2-box {
+    width: 98%;
+    height: 50px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 0 5px;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 1px;
+}
+
+.subbox {
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    width: 80%;
+    display: flex;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+}
+
+.sub-btn {
+    flex: 1;
+    font-size: small;
+    cursor: pointer;
+    background-color: rgba(250, 235, 215, 0);
+    border: none;
+}
