@@ -1,0 +1,133 @@
+.new-releases {
+  height: 500px;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.label-box {
+  font-family: Inter, sans-serif;
+  color: white;
+  width: 100%;
+  height: 400px;
+  padding: 5px;
+  display: flex;
+  position: relative;
+  background-color: green;
+  background: linear-gradient(to bottom, transparent, rgb(55, 203, 109));
+  clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+}
+
+.label-box img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  gap: 5px;
+  margin-inline: 50px;
+
+}
+
+.mcard {
+  min-width: 70px;
+  height: 100%;
+  border-radius: 30px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  flex-grow: 1;
+  cursor: pointer;
+  position: relative;
+  transition: 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+  --transition-timing: 0.25s;
+}
+
+.mcard.active {
+  flex-grow: 100;
+}
+
+.mcard>.background {
+  position: absolute;
+  inset: 0;
+  object-fit: cover;
+  object-position: left;
+  filter: brightness(0.8);
+  z-index: -1;
+  transition: var(--transition-timing) ease;
+}
+
+.mcard.active>.background {
+  filter: brightness(1) grayscale(0);
+}
+
+.mcard>.mcard-content {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 20px;
+  overflow: hidden;
+  transition: var(--transition-timing);
+  z-index: 10;
+}
+
+.mcard.active>.mcard-content {
+  inset: 20px;
+  top: auto;
+}
+
+.mcard-content * {
+  transition: var(--transition-timing);
+}
+
+.mcard-content>.profile-image {
+  min-width: 50px;
+  max-width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-image img {
+  height: 70%;
+  width: 70%;
+}
+
+.mcard.active .profile-image {
+  border: 1px solid rgb(110, 252, 205);
+}
+
+.mcard-content>.title {
+  white-space: pre;
+  margin-left: 10px;
+  translate: 0 100%;
+  opacity: 0;
+  transition-delay: 0.3s;
+}
+
+.mcard.active .title {
+  opacity: 1;
+  translate: 0 0;
+}
+
+.mcard>.backdrop {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100px;
+  z-index: 0;
+  background: linear-gradient(to bottom, transparent, rgb(0, 0, 0));
+}
