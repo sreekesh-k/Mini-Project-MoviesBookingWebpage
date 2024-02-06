@@ -1,3 +1,18 @@
+@keyframes zoomOut {
+  10% {
+    transform: scale(1);
+  }
+
+  80% {
+    transform: scale(1.2);
+    /* Adjust the final scale factor as needed */
+  }
+
+  10% {
+    transform: scale(1);
+  }
+}
+
 .new-releases {
   height: 500px;
   width: 100%;
@@ -51,6 +66,10 @@
 
 .mcard.active {
   flex-grow: 100;
+}
+
+.mcard.active img {
+  animation: zoomOut 5s ease-in-out;
 }
 
 .mcard>.background {
