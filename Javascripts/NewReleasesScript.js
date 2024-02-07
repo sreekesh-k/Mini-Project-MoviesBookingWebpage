@@ -18,9 +18,9 @@ function nextCard() {
 const intervalId = setInterval(nextCard, 5000);
 
 // Stop the interval when the user clicks on a card
-cardsContainer.addEventListener("mouseover", (e) => {
+cardsContainer.addEventListener("click", (e) => {
   const target = e.target.closest(".mcard");
-
+  setActiveCard(currentIndex);
   if (!target) return;
 
   cardsContainer.querySelectorAll(".mcard").forEach((card) => {

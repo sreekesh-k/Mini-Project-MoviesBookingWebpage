@@ -18,10 +18,12 @@
     overflow: hidden;
     background-color: rgba(69, 66, 66, 0.058);
 }
+
 .menubar-box button:hover {
-    border-bottom:solid 3px rgba(56, 233, 68, 0.238);
+    border-bottom: solid 3px rgba(56, 233, 68, 0.238);
     font-size: 1em;
 }
+
 .main1-box {
     width: 98%;
     height: 50px;
@@ -64,4 +66,11 @@
     cursor: pointer;
     background-color: rgba(250, 235, 215, 0);
     border: none;
+}
+
+.heading-box {
+    display: flex;
+    align-items: center;
+    height: 75px;
+    width: 100%;
 }

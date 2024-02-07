@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="styleSheets/mainStyle.css">
     <link rel="stylesheet" href="styleSheets/contentStyle.css">
     <link rel="stylesheet" href="styleSheets/newReleaseStyles.css">
+    <link rel="stylesheet" href="styleSheets/notificationStyle.css">
     <script src="Javascripts/NewReleasesScript.js" defer></script>
+    <script src="Javascripts/notificationBar.js" defer></script>
 </head>
 <header>
     <div class="navbar-box">
@@ -88,7 +90,7 @@
 </header>
 <div class="main">
     <div class="new-releases">
-        <div>
+        <div class="heading-box">
             <h2>New Releases</h2>
         </div>
         <div class="label-box">
@@ -144,12 +146,37 @@
                     <div class="backdrop"></div>
                 </div>
             </div>
+            <div class="decoration">
+                <div class="ticket">
+                    <div class="triangle"></div>
+                    <div class="triangle"></div>
+                    <div class="triangle"></div>
+                    <div class="triangle"></div>
+                    <div class="triangle"></div>
+                    <div class="triangle"></div>
+                    <div class="triangle"></div>
+                </div>
+            </div>
         </div>
     </div>
-    <div>
-        <h2>Recomended Movies</h2>
+    <div class="notification-box">
+        <div class="logo-name-notif">
+            <img src="Logos/logo.png">
+        </div>
+        <div class="message">
+            <h1 id="message"></h1>
+        </div>
     </div>
 
+    <div class="heading-box">
+        <div style="flex: 1;">
+            <h2>Recomended</h2>
+        </div>
+        <div style="flex:1"></div>
+        <div style="flex:1"></div>
+        <div></div>
+        <div style="flex: 1;"><a href="" style="color: rgb(68, 248, 134);text-decoration: none;">view more></a></div>
+    </div>
     <div class="mfilm-box">
         <div class="film-box">
             <div class="card">

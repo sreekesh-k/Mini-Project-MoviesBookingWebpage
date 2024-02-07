@@ -14,22 +14,54 @@
 }
 
 .new-releases {
-  height: 500px;
+  height: 80vh;
   width: 100%;
   margin-top: 5%;
+  box-sizing: border-box;
 }
 
 .label-box {
   font-family: Inter, sans-serif;
   color: white;
   width: 100%;
-  height: 400px;
-  padding: 5px;
+  height: 70%;
+  overflow: hidden;
+  padding: 5px 0px;
   display: flex;
+  align-items: flex-start;
   position: relative;
   background-color: green;
-  background: linear-gradient(to bottom, transparent, rgb(55, 203, 109));
-  clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+  z-index: 1;
+  background: linear-gradient(to right, transparent, rgb(55, 203, 109));
+  box-sizing: border-box;
+}
+
+.decoration {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 100%;
+  max-width: 50%;
+  margin-left: 10px;
+  box-sizing: border-box;
+}
+
+.ticket {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.triangle {
+  flex: 1;
+  width: 100%;
+  background-color: white;
+  clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+  box-sizing: border-box;
 }
 
 .label-box img {
@@ -38,6 +70,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
+
 }
 
 .container {
@@ -45,8 +79,7 @@
   height: 100%;
   display: flex;
   gap: 5px;
-  margin-inline: 50px;
-
+  box-sizing: border-box;
 }
 
 .mcard {
@@ -60,12 +93,13 @@
   cursor: pointer;
   position: relative;
   transition: 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-
+  box-sizing: border-box;
   --transition-timing: 0.25s;
 }
 
 .mcard.active {
   flex-grow: 100;
+  box-shadow: 0px 4px 5px black;
 }
 
 .mcard.active img {
@@ -80,6 +114,7 @@
   filter: brightness(0.8);
   z-index: -1;
   transition: var(--transition-timing) ease;
+  box-sizing: border-box;
 }
 
 .mcard.active>.background {
@@ -96,7 +131,9 @@
   overflow: hidden;
   transition: var(--transition-timing);
   z-index: 10;
+  box-sizing: border-box;
 }
+
 
 .mcard.active>.mcard-content {
   inset: 20px;
@@ -117,6 +154,8 @@
   align-items: center;
   border-radius: 50%;
   overflow: hidden;
+  opacity: 50%;
+  box-sizing: border-box;
 }
 
 .profile-image img {
@@ -126,6 +165,7 @@
 
 .mcard.active .profile-image {
   border: 1px solid rgb(110, 252, 205);
+  opacity: 50%;
 }
 
 .mcard-content>.title {
@@ -134,6 +174,11 @@
   translate: 0 100%;
   opacity: 0;
   transition-delay: 0.3s;
+}
+
+.title {
+  font-weight: bold;
+  text-shadow: 2px 5px 5px black;
 }
 
 .mcard.active .title {
