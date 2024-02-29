@@ -65,6 +65,7 @@
     color: #fff;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
+   
 }
 
 .card::after {
@@ -74,6 +75,7 @@
     border: 2px solid black;
     border-radius: inherit;
     opacity: 0;
+    overflow: hidden;
     transition: 0.4s ease-in-out;
 }
 
@@ -84,6 +86,7 @@
 .card:hover::after {
     opacity: 1;
     inset: 10px;
+
 }
 
 .card:hover .content {

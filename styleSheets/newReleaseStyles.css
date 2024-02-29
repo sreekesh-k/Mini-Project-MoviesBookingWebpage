@@ -30,7 +30,6 @@
   display: flex;
   align-items: flex-start;
   position: relative;
-  background-color: green;
   z-index: 1;
   background: linear-gradient(to right, transparent, rgb(55, 203, 109));
   box-sizing: border-box;

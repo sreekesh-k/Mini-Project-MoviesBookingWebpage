@@ -1,0 +1,31 @@
+INSERT INTO `movies_db`.`movies` (`title`, `r_date`, `image_url`, `runtime`, `imdb_rating`, `description`, `certificate`, `metascore`, `votes`, `language`, `genre`) VALUES
+('Dangal', '2016-12-23', 'https://m.media-amazon.com/images/M/MV5BMTQ4MzQzMzM2Nl5BMl5BanBnXkFtZTgwMTQ1NzU3MDI@._V1_FMjpg_UX1000_.jpg', 161, 8.4, 'Former wrestler Mahavir Singh Phogat trains young daughters Geeta and Babita to follow in his footsteps and become world-class grapplers.', 'U', 76, 157000, 'Hindi', 'Biography, Drama, Sport'),
+
+('3 Idiots', '2009-12-25', 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/66A9MqXOyVFCssoloscw79z8Tew.jpg', 170, 8.4, 'Two friends are searching for their long lost companion. They revisit their college days and recall the memories of their friend who inspired them to think differently, even as the rest of the world called them "idiots".', 'U', 67, 362000, 'Hindi', 'Comedy, Drama'),
+
+('Gully Boy', '2019-02-14', 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/h57EzPdrDvtUkvbTj6ar5yZOPic.jpg', 153, 8.2, 'A coming-of-age story based on the lives of street rappers in Mumbai.', 'U', 65, 116000, 'Hindi', 'Drama, Music'),
+('Lagaan', '2001-06-15', 'https://example.com/lagaan.jpg', 224, 8.1, 'The people of a small village in Victorian India stake their future on a game of cricket against their ruthless British rulers.', 'U', 84, 106000, 'Hindi', 'Adventure, Drama, Musical'),
+
+('Andhadhun', '2018-10-05', 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/dy3K6hNvwE05siGgiLJcEiwgpdO.jpg', 139, 8.3, 'A series of mysterious events change the life of a blind pianist, who must now report a crime that he should technically know nothing of.', 'U', 82, 94000, 'Hindi', 'Crime, Drama, Thriller'),
+
+('PK', '2014-12-19', 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/z2x2Y4tncefsIU7h82gmUM5vnBJ.jpg', 153, 8.1, 'An alien on Earth loses the only device he can use to communicate with his spaceship. His innocent nature and child-like questions force the country to evaluate the impact of religion on its people.', 'U', 51, 180000, 'Hindi', 'Comedy, Drama, Fantasy'),
+
+('Queen', '2014-03-07', 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vKLp0X2RQOuA31R3AdaYtDdKIPK.jpg', 146, 8.2, 'A Delhi girl from a traditional family sets out on a solo honeymoon after her marriage gets canceled.', 'U', 66, 123000, 'Hindi', 'Adventure, Comedy, Drama'),
+
+('Barfi!', '2012-09-14', 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8lVuWmArvr41CvyvpgI3elD5iB1.jpg', 151, 8.1, 'Three young people learn that love can neither be defined nor contained by society\'s norms of normal and abnormal.', 'U', 58, 102000, 'Hindi', 'Adventure, Comedy, Drama'),
+
+('Taare Zameen Par', '2007-12-21', 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/qP8ruHtfYDlrjr1KAeZ5iVBJKE9.jpg', 165, 8.4, 'An eight-year-old boy is thought to be a lazy trouble-maker until the new art teacher has the patience and compassion to discover the real problem behind his struggles in school.', 'U', 77, 134000, 'Hindi', 'Drama, Family'),
+
+('Chak De! India', '2007-08-10', 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/qP8ruHtfYDlrjr1KAeZ5iVBJKE9.jpg', 153, 8.2, 'Kabir Khan is the coach of the Indian Women\'s National Hockey Team and his dream is to make his all-girls team emerge victorious against all odds.', 'U', 68, 97000, 'Hindi', 'Drama, Family, Sport'),
+
+('Swades', '2004-12-17', 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/oigboNMVOBzOhVUEmvJFkAqq8Br.jpg', 189, 8.2, 'A successful Indian scientist returns to an Indian village to take his nanny to America with him and in the process rediscovers his roots.', 'U', 69, 82000, 'Hindi', 'Drama'),
+
+('Dil Chahta Hai', '2001-08-10', 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/3Rwy4UjWBGEbD23xjyeBsL3OnXQ.jpg', 183, 8.1, 'Three inseparable childhood friends are just out of college. Nothing comes between them - until they each fall in love, and their wildly different approaches to relationships creates tension.', 'U', 75, 115000, 'Hindi', 'Comedy, Drama, Romance'),
+
+('Kahaani', '2012-03-09', 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/shsN1B7IPAQG1NLF6WVVi3X89lM.jpg', 122, 8.1, 'A pregnant woman\'s search for her missing husband takes her from London to Kolkata, but everyone she questions denies having ever met him.', 'U', 78, 86000, 'Hindi', 'Mystery, Thriller'),
+
+('Rang De Basanti', '2006-01-26', 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/shsN1B7IPAQG1NLF6WVVi3X89lM.jpg', 157, 8.1, 'A young woman from England comes to India to make a documentary about her grandfather\'s diary, which was written in the 1920s about the Indian Independence with five young men.', 'U', 68, 101000, 'Hindi', 'Comedy, Drama'),
+
+('Dev.D', '2009-02-06', 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/oIVRjyhfiLehy6V5GVQJm9GsbZ9.jpg', 144, 8.0, 'After breaking up with his childhood sweetheart, a young man finds solace in drugs. Meanwhile, a teenage girl is caught in the world of prostitution. Will they be destroyed, or will they find redemption?', 'U', 70, 67000, 'Hindi', 'Drama, Romance'),
+
+('Gangs of Wasseypur', '2012-06-22', 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/oIVRjyhfiLehy6V5GVQJm9GsbZ9.jpg', 321, 8.2, 'A clash between Sultan and Shahid Khan leads to the expulsion of Khan from Wasseypur, and ignites a deadly blood feud spanning three generations.', 'A', 89, 98000, 'Hindi', 'Action, Crime, Drama');
