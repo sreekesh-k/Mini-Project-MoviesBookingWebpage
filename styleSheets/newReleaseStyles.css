@@ -52,7 +52,7 @@
 .container {
   margin: 10px;
   width: 80%;
-  max-width: 1400px;
+  max-width: 1000px;
   height: 100%;
   display: flex;
   gap: 5px;
