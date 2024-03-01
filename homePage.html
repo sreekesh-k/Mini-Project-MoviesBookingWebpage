@@ -13,72 +13,42 @@
     <script src="Javascripts/NewReleasesScript.js" defer></script>
     <script src="Javascripts/notificationBar.js" defer></script>
 </head>
-<header>
-    <div class="navbar-box">
-        <nav class="navbar">
-            <div class="left-box">
-                <div class="in-box">
-                    <button type="button" class="logo-name">
-                        <img src="Logos/logo.png">
-                    </button>
-                </div>
 
-            </div>
-            <div class="center-box">
-                <div class="in-box">
-                    <form action="">
-                        <div class="searchbox">
-                            <input type="text" name="searcbox" placeholder="search movies">
-                        </div>
-                        <div class="searchbutton">
-                            <button type="submit"> <img src="Images/search-icon.png" alt="Search"></button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div class="right-box">
-                <div class="in-box">
-                    <div class="lastbox">
-                        <div></div>
-                        <button type="button" class="signin-btn">Sign in</button>
-                        <button type="button" class="menu-btn">
-                            <span class="line"></span>
-                            <span class="line"></span>
-                            <span class="line"></span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-        </nav>
-
-    </div>
-    <div class="menubar">
-        <div class="menubar-box">
+<body>
+    <!--NAVBAR-->
+    <header>
+        <div class="navbar-box">
             <nav class="navbar">
                 <div class="left-box">
-                    <div class="main1-box">
-                        <div class="subbox">
-                            <button type="button" class="sub-btn">Offers</button>
-                            <button type="button" class="sub-btn">GiftCard</button>
-                            <button type="button" class="sub-btn">News</button>
-                        </div>
+                    <div class="in-box">
+                        <button type="button" class="logo-name">
+                            <img src="Logos/logo.png">
+                        </button>
                     </div>
 
                 </div>
                 <div class="center-box">
-                    <div class="main-box">
-
+                    <div class="in-box">
+                        <form action="">
+                            <div class="searchbox">
+                                <input type="text" name="searcbox" placeholder="search movies">
+                            </div>
+                            <div class="searchbutton">
+                                <button type="submit"> <img src="Images/search-icon.png" alt="Search"></button>
+                            </div>
+                        </form>
                     </div>
                 </div>
                 <div class="right-box">
-                    <div class="main2-box">
-                        <div class="subbox">
-                            <div class="sub-btn"></div>
-                            <div class="sub-btn"></div>
-                            <button type="button" class="sub-btn">Offers</button>
-                            <button type="button" class="sub-btn">GiftCard</button>
-                            <div class="sub-btn"></div>
+                    <div class="in-box">
+                        <div class="lastbox">
+                            <div></div>
+                            <button type="button" class="signin-btn">Sign in</button>
+                            <button type="button" class="menu-btn">
+                                <span class="line"></span>
+                                <span class="line"></span>
+                                <span class="line"></span>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -86,159 +56,197 @@
             </nav>
 
         </div>
-    </div>
-</header>
-<div class="main">
-    <div class="new-releases">
-        <div class="heading-box">
-            <h2>New Releases</h2>
-        </div>
-        <div class="label-box">
-            <div class="container">
-                <div class="mcard active">
-                    <img class="background" src="Images/NewReleases/inception.png" alt="">
-                    <div class="mcard-content">
-                        <div class="profile-image">
-                            <img src="Logos/LogoIcon.png">
-                        </div>
-                        <h3 class="title">Inception</h3>
-                    </div>
-                    <div class="backdrop"></div>
-                </div>
-                <div class="mcard active">
-                    <img class="background" src="Images/NewReleases/interstellar.jpg" alt="">
-                    <div class="mcard-content">
-                        <div class="profile-image">
-                            <img src="Logos/LogoIcon.png">
-                        </div>
-                        <h3 class="title">Interstellar</h3>
-                    </div>
-                    <div class="backdrop"></div>
-                </div>
-                <div class="mcard active">
-                    <img class="background" src="Images/NewReleases/new-batmanjpg.jpg" alt="">
-                    <div class="mcard-content">
-                        <div class="profile-image">
-                            <img src="Logos/LogoIcon.png">
-                        </div>
-                        <h3 class="title">The Batman</h3>
-                    </div>
-                    <div class="backdrop"></div>
-                </div>
-                <div class="mcard active">
-                    <img class="background" src="Images/NewReleases/oppenheimer-poster.jpeg" alt="">
-                    <div class="mcard-content">
-                        <div class="profile-image">
-                            <img src="Logos/LogoIcon.png">
-                        </div>
-                        <h3 class="title">Oppenheimer</h3>
-                    </div>
-                    <div class="backdrop"></div>
-                </div>
-                <div class="mcard active">
-                    <img class="background" src="Images/tenet.png" alt="">
-                    <div class="mcard-content">
-                        <div class="profile-image">
-                            <img src="Logos/LogoIcon.png">
-                        </div>
-                        <h3 class="title">Tenet</h3>
-                    </div>
-                    <div class="backdrop"></div>
-                </div>
-            </div>
-            <div class="decoration">
-                <div class="ticket">
-                    <div class="triangle"></div>
-                    <div class="triangle"></div>
-                    <div class="triangle"></div>
-                    <div class="triangle"></div>
-                    <div class="triangle"></div>
-                    <div class="triangle"></div>
-                    <div class="triangle"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="notification-box">
-        <div class="logo-name-notif">
-            <img src="Logos/logo.png">
-        </div>
-        <div class="message">
-            <h1 id="message"></h1>
-        </div>
-    </div>
 
-    <div class="heading-box">
-        <div style="flex: 1;">
-            <h2>Recomended</h2>
+
+        <!--MENUBAR-->
+        <div class="menubar">
+            <div class="menubar-box">
+                <nav class="navbar">
+                    <div class="left-box">
+                        <div class="main1-box">
+                            <div class="subbox">
+                                <button type="button" class="sub-btn">About</button>
+                                <button type="button" class="sub-btn">BookNow</button>
+                                <button type="button" class="sub-btn">News</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="center-box">
+                        <div class="main-box">
+
+                        </div>
+                    </div>
+                    <div class="right-box">
+                        <div class="main2-box">
+                            <div class="subbox">
+                                <div class="sub-btn"></div>
+                                <div class="sub-btn"></div>
+                                <button type="button" class="sub-btn">Offers</button>
+                                <button type="button" class="sub-btn">GiftCard</button>
+                                <div class="sub-btn"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </nav>
+
+            </div>
         </div>
-        <div style="flex:1"></div>
-        <div style="flex:1"></div>
-        <div></div>
-        <div style="flex: 1;"><a href="" style="color: rgb(68, 248, 134);text-decoration: none;">view more></a></div>
-    </div>
-    <div class="mfilm-box">
-        <div class="film-box">
-            <div class="card">
-                <div class="image-box">
-                    <img src="Images/oppenheimer-poster.jpeg">
-                </div>
-                <div class="content">
-                    <h2>Oppenheimer 2023</h2>
-                    <p>The story of American scientist J. Robert Oppenheimer and his role in the development of the
-                        atomic bomb.</p>
+    </header>
+
+    <!--MAINCONTENT-->
+    <div class="main">
+
+
+        <!--NEW RELEASES-->
+        <div class="new-releases">
+            <div class="heading-box">
+                <h2>New Releases</h2>
+            </div>
+            <div class="label-box">
+                <div class="container">
+                    <div class="mcard active">
+                        <img class="background" src="Images/NewReleases/inception.png" alt="">
+                        <div class="mcard-content">
+                            <div class="profile-image">
+                                <img src="Logos/LogoIcon.png">
+                            </div>
+                            <h3 class="title">Inception</h3>
+                        </div>
+                        <div class="backdrop"></div>
+                    </div>
+                    <div class="mcard active">
+                        <img class="background" src="Images/NewReleases/interstellar.jpg" alt="">
+                        <div class="mcard-content">
+                            <div class="profile-image">
+                                <img src="Logos/LogoIcon.png">
+                            </div>
+                            <h3 class="title">Interstellar</h3>
+                        </div>
+                        <div class="backdrop"></div>
+                    </div>
+                    <div class="mcard active">
+                        <img class="background" src="Images/NewReleases/new-batmanjpg.jpg" alt="">
+                        <div class="mcard-content">
+                            <div class="profile-image">
+                                <img src="Logos/LogoIcon.png">
+                            </div>
+                            <h3 class="title">The Batman</h3>
+                        </div>
+                        <div class="backdrop"></div>
+                    </div>
+                    <div class="mcard active">
+                        <img class="background" src="Images/NewReleases/oppenheimer-poster.jpeg" alt="">
+                        <div class="mcard-content">
+                            <div class="profile-image">
+                                <img src="Logos/LogoIcon.png">
+                            </div>
+                            <h3 class="title">Oppenheimer</h3>
+                        </div>
+                        <div class="backdrop"></div>
+                    </div>
+                    <div class="mcard active">
+                        <img class="background" src="Images/tenet.png" alt="">
+                        <div class="mcard-content">
+                            <div class="profile-image">
+                                <img src="Logos/LogoIcon.png">
+                            </div>
+                            <h3 class="title">Tenet</h3>
+                        </div>
+                        <div class="backdrop"></div>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <div class="image-box">
-                    <img src="Images/new-batmanjpg.jpg">
-                </div>
-                <div class="content">
-                    <h2>The Batman 2022</h2>
-                    <p>When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced
-                        to investigate the city's hidden corruption and question his family's involvement.</p>
-                </div>
+        </div>
+
+
+        <!--NOTIFICATIONBOX-->
+        <div class="notification-box">
+            <div class="logo-name-notif">
+                <img src="Logos/logo.png">
             </div>
-            <div class="card">
-                <div class="image-box">
-                    <img src="Images/interstellar.jpg">
+            <div class="message">
+                <h1 id="message"></h1>
+            </div>
+        </div>
+
+        <div class="heading-box">
+            <div style="flex: 1;">
+                <h2>Recomended</h2>
+            </div>
+            <div style="flex:1"></div>
+            <div style="flex:1"></div>
+            <div></div>
+            <div style="flex: 1;"><a href="" style="color: rgb(68, 248, 134);text-decoration: none;">view more></a>
+            </div>
+        </div>
+        <div class="mfilm-box">
+            <div class="film-box">
+                <div class="card">
+                    <div class="image-box">
+                        <img src="Images/oppenheimer-poster.jpeg">
+                    </div>
+                    <div class="content">
+                        <h2>Oppenheimer 2023</h2>
+                        <p>The story of American scientist J. Robert Oppenheimer and his role in the development of the
+                            atomic bomb.</p>
+                    </div>
                 </div>
-                <div class="content" style="display: flex;flex-direction: column;">
-                    <h2>Interstellar 2014</h2>
-                    <div style="overflow: hidden;">
-                        <p>When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is
-                            tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for
-                            humans.
+                <div class="card">
+                    <div class="image-box">
+                        <img src="Images/new-batmanjpg.jpg">
+                    </div>
+                    <div class="content">
+                        <h2>The Batman 2022</h2>
+                        <p>When a sadistic serial killer begins murdering key political figures in Gotham, Batman is
+                            forced
+                            to investigate the city's hidden corruption and question his family's involvement.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-box">
+                        <img src="Images/interstellar.jpg">
+                    </div>
+                    <div class="content" style="display: flex;flex-direction: column;">
+                        <h2>Interstellar 2014</h2>
+                        <div style="overflow: hidden;">
+                            <p>When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph
+                                Cooper, is
+                                tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for
+                                humans.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-box">
+                        <img src="Images/inception.png">
+                    </div>
+                    <div class="content">
+                        <h2>Inception 2013</h2>
+                        <p>A thief who steals corporate secrets through the use of dream-sharing technology is given the
+                            inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom...
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-box">
+                        <img src="Images/tenet.png">
+                    </div>
+                    <div class="content">
+                        <h2>Tenet 2019</h2>
+                        <p>Armed with only one word, Tenet, and fighting for the survival of the entire world, a
+                            Protagonist
+                            journeys through a twilight world of international espionage on a mission that will unfold
+                            in
+                            something beyond real time.
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="card">
-                <div class="image-box">
-                    <img src="Images/inception.png">
-                </div>
-                <div class="content">
-                    <h2>Inception 2013</h2>
-                    <p>A thief who steals corporate secrets through the use of dream-sharing technology is given the
-                        inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom...
-                    </p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="image-box">
-                    <img src="Images/tenet.png">
-                </div>
-                <div class="content">
-                    <h2>Tenet 2019</h2>
-                    <p>Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist
-                        journeys through a twilight world of international espionage on a mission that will unfold in
-                        something beyond real time.
-                    </p>
-                </div>
-            </div>
         </div>
     </div>
-</div>
 
 </body>
 

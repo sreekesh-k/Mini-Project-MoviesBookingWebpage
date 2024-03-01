@@ -1,14 +1,14 @@
 @keyframes zoomOut {
-  10% {
+  1% {
     transform: scale(1);
   }
 
-  80% {
-    transform: scale(1.2);
+  98% {
+    transform: scale(1.1);
     /* Adjust the final scale factor as needed */
   }
 
-  10% {
+  1% {
     transform: scale(1);
   }
 }
@@ -20,6 +20,10 @@
   box-sizing: border-box;
 }
 
+.new-releases h2 {
+  margin: 0px 170px;
+}
+
 .label-box {
   font-family: Inter, sans-serif;
   color: white;
@@ -28,38 +32,11 @@
   overflow: hidden;
   padding: 5px 0px;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
   position: relative;
   z-index: 1;
-  background: linear-gradient(to right, transparent, rgb(55, 203, 109));
-  box-sizing: border-box;
-}
-
-.decoration {
-  flex: 1;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-  height: 100%;
-  max-width: 50%;
-  margin-left: 10px;
-  box-sizing: border-box;
-}
-
-.ticket {
-  height: 100%;
-  width: 20%;
-  display: flex;
-  gap: 5px;
-  flex-direction: column;
-  box-sizing: border-box;
-}
-
-.triangle {
-  flex: 1;
-  width: 100%;
-  background-color: white;
-  clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+  background-image: linear-gradient(to right, rgba(68, 248, 134, 0.379), rgba(68, 248, 134, 0.379)), url('https://preview.redd.it/4fxxbm4opjd31.jpg?width=1080&crop=smart&auto=webp&s=b1e7078fa299f42b17591afdf120f823ba7a7d97');
   box-sizing: border-box;
 }
 
@@ -70,14 +47,18 @@
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-
 }
 
 .container {
+  margin: 10px;
   width: 80%;
+  max-width: 1400px;
   height: 100%;
   display: flex;
   gap: 5px;
+  border-radius: inherit;
+  align-items: center;
+  justify-content: center;
   box-sizing: border-box;
 }
 
@@ -88,7 +69,6 @@
   overflow: hidden;
   display: flex;
   align-items: flex-end;
-  flex-grow: 1;
   cursor: pointer;
   position: relative;
   transition: 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
@@ -102,6 +82,8 @@
 }
 
 .mcard.active img {
+
+  /* Maintains aspect ratio */
   animation: zoomOut 5s ease-in-out;
 }
 
@@ -133,7 +115,6 @@
   box-sizing: border-box;
 }
 
-
 .mcard.active>.mcard-content {
   inset: 20px;
   top: auto;
@@ -145,7 +126,6 @@
 
 .mcard-content>.profile-image {
   min-width: 50px;
-  max-width: 50px;
   height: 50px;
   border: 1px solid white;
   display: flex;
@@ -173,6 +153,8 @@
   translate: 0 100%;
   opacity: 0;
   transition-delay: 0.3s;
+  text-decoration: none;
+  color: inherit;
 }
 
 .title {
