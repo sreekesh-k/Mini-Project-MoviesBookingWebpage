@@ -1,0 +1,30 @@
+.footer {
+    margin-top: 100px;
+    background: linear-gradient(to right, #eeeeee, #cccccc);
+    color: #333333;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-divider {
+    border: none;
+    height: 1px;
+    background-color: #333333;
+}
+
+.foot-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.copyright {
+    margin-top: 20px;
+    text-align: center;
+}
